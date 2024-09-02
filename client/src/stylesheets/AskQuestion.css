@@ -1,0 +1,68 @@
+/* Styles for input labels */
+label {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  
+  /* Styles for input fields and textareas */
+  input[type="text"],
+  textarea {
+    width: 97%;
+    padding: 0.5em;
+    font-size: 1rem;
+    margin-bottom: 1em; /* Spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the Post Question button */
+  button[type="submit"] {
+    width: 9.375em;
+    height: 2.5em;
+    padding: 0.3125em 0.625em;
+    font-size: 0.875rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Error messages styling */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: red;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Optional: Styles for focusing on inputs */
+  input[type="text"]:focus, 
+  textarea:focus {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+  }
+  
+  /* Optional: Styles for invalid inputs */
+  input[type="text"]:invalid, 
+  textarea:invalid {
+    border-color: red;
+  }
+  
+  /* Container styles, if needed for layout */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Styles for individual form field containers */
+  .field-container {
+    margin-bottom: 1em; /* Spacing between form fields */
+  }
+  
+  
